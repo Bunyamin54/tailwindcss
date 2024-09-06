@@ -1,18 +1,27 @@
-import React from "react";
-import Register from "./pages/Register";
+import React from 'react';
 
 const App = () => {
   return (
-    <div>
-        <h1>TailwindCss Kurulum</h1>
+    <div className="bg-fuchsia-300 h-screen p-[20px]">
 
- 
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <h1 className='text-6xl bg-[#ededed]'>TailwindCss Kurulum</h1>
 
+      <h1 className="text-3xl font-bold  text-center underline">
+        Hello world!
+      </h1>
+
+     <div className=' flex gap-3 mt-4'>
+     <div className='flex flex-col justify-between items-center bg-slate-500 rounded-xl w-3/12 '>
+       </div>
+       <div className= "card">
+
+        <img src="https://www.themoviedb.org/t/p/w1280/37p95Lpe7mfVX86ZcVr7TisAHPn.jpg" alt="" className="rounded-xl h-[200px]"   />
+        <p className='line-clamp-1 hover:line-clamp-none'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque expedita laborum officiis exercitationem repudiandae id dolor, eveniet omnis adipisci esse amet nesciunt debitis! Et sit, ipsa architecto ut reiciendis nulla reprehenderit est fugit. Tempore.</p>
+       </div>
+
+     </div>
+       
     </div>
-
   );
 };
 
