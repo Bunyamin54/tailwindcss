@@ -18,7 +18,7 @@ const App = () => {
         <img src="https://www.themoviedb.org/t/p/w1280/37p95Lpe7mfVX86ZcVr7TisAHPn.jpg" alt="" className="rounded-xl h-[200px] animate-pulse"   />
         <p className='line-clamp-1 hover:line-clamp-none'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque expedita laborum officiis exercitationem repudiandae id dolor, eveniet omnis adipisci esse amet nesciunt debitis! Et sit, ipsa architecto ut reiciendis nulla reprehenderit est fugit. Tempore.</p>
        </div>
-
+    {/*  //* @layer og @aply ozellikleri */}
      </div>
        
     </div>
